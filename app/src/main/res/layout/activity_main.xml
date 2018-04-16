@@ -21,8 +21,12 @@
             android:src="@mipmap/ic_launcher" />
 
         <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avi"
+            style="@style/AVLoadingIndicatorView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:visibility="visible"
+
             app:indicatorName="BallPulseIndicator" />
 
     </LinearLayout>
